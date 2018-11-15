@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="176dp"
+    android:background="@color/colorPrimary"
+    android:gravity="bottom"
+    android:theme="@style/ThemeOverlay.AppCompat.Dark"
+    android:paddingLeft="10dp"
+    android:paddingTop="0dp">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@mipmap/ic_launcher_round"
+        android:paddingTop="0dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ETS_Launcher"
+        android:textColor="@color/colorwhite"
+        android:paddingTop="10dp"
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Body1"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ETS123@gmail.com"
+        android:textColor="@color/colorwhite"
+        android:paddingTop="10dp"
+        android:paddingBottom="5dp"/>
+</LinearLayout>
